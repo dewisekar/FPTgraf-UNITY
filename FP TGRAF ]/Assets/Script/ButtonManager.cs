@@ -18,6 +18,10 @@ public class ButtonManager : MonoBehaviour {
 	{
 		SceneManager.LoadScene("Options");
 	}
+	public void ToHelp()
+	{
+		SceneManager.LoadScene("Help");
+	}
 	public void ExitButton()
 	{
 		Application.Quit();
